@@ -1,8 +1,12 @@
 html,
 body {
     font-family: Arial;
-    background-color: aliceblue;
+    background-image: url(../public/images/background.png);
     padding: 40px 0
+}
+
+.container > *{
+    background-color: rgb(255 255 255 / 83%);
 }
 
 h2 {
@@ -22,11 +26,15 @@ img {
     height: 180px;
 }
 
-section,header {
+section,header,main {
     padding: 10px 60px 20px 60px;
-    background-color:white;
     width: 960px;
     margin: 0 auto;
+}
+
+main {
+    padding: 0px;
+    width: 1080px;
 }
 
 header {

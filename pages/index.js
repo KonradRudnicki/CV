@@ -22,10 +22,10 @@ export default function Home() {
               </div>
               <address>
                   <ul>
-                      <li><img class="address-icon" src="images/tel.png"/><b>Numer telefonu</b>: 662 582 338</li>
-                      <li><img class="address-icon" src="images/mail.png"/><b>Email</b>: konradrudnicki0@gmail.com</li>
-                      <li><img class="address-icon" src="images/uro.png"/><b>Data urodzenia</b>: 24.05.2002</li>
-                      <li><img class="address-icon" src="images/miejsce.png"/><b>Miejsce urodzenia</b>: Wrocław</li>
+                      <li><img className="address-icon" src="images/tel.png"/><b>Numer telefonu</b>: 662 582 338</li>
+                      <li><img className="address-icon" src="images/mail.png"/><b>Email</b>: konradrudnicki0@gmail.com</li>
+                      <li><img className="address-icon" src="images/uro.png"/><b>Data urodzenia</b>: 24.05.2002</li>
+                      <li><img className="address-icon" src="images/miejsce.png"/><b>Miejsce urodzenia</b>: Wrocław</li>
                   </ul>
               </address>
               </header>
