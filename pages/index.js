@@ -2,11 +2,20 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
+import Image from 'next/image'
+import profilePic from '../public/images/avatar.jpg'
+
 export default function Home() {
   return (
     <div className="container">
       <header>
-              <img class="circle" src="images/avatar.jpg" width="150px" height="150px"></img>
+              <Image
+                      src={profilePic}
+                      alt="Picture of the author"
+                      width="180px"
+                      height="180px"
+                      className = "circle"
+                    />
               <div>
                   <h1>Konrad Rudnicki</h1>
                   <span>Student</span>
