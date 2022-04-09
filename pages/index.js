@@ -48,6 +48,7 @@ export default function Home() {
                   <ul>
                       <li>Projekt strony internetowej</li>
                       <li>Projekt zaprogramowania silnika trójfazowego</li>
+                      <li><a href="https://tic-tac-toe-konrad-rudnicki.herokuapp.com/index.html">Gra przeglądarkowa "kółko i krzyżyk"</a></li>
                   </ul>
               </section>
 
