@@ -34,20 +34,18 @@ export default function Home() {
               <section>
                   <h2>O mnie</h2>
                   <p>
-                      Mam na imię <b>Konrad</b>! Jestem studentem pierwszego roku informatyki
-                      stosowanej na <a href="https://pwr.edu.pl/">Politechince Wrocławskiej</a>. Wcześniej ukończyłem
-                      Liceum Ogólnokształcące nr 5 we Wrocławiu.
+                      Mam na imię <b>Konrad</b>! Jestem studentem drugiego roku informatyki
+                      stosowanej po angielsku na <a href="https://pwr.edu.pl/">Politechince Wrocławskiej</a>.
                       Cechuję się kreatywnością, otwartością oraz logicznym myśleniem.
                       Jestem ambitną osobą, która wytrwale walczy o sukcesy.
-
                   </p>
               </section>
 
               <section>
-                  <h2>Doświadczenie zawodowe</h2>
+                  <h2>Moje linki</h2>
                   <ul>
-                      <li>Projekt strony internetowej</li>
-                      <li>Projekt zaprogramowania silnika trójfazowego</li>
+                      <li><a href="https://github.com/KonradRudnicki">GitHub</a></li>
+                      <li><a href="https://www.linkedin.com/in/konrad-rudnicki-dev/">LinkedIn</a></li>
                       <li><a href="https://tic-tac-toe-konrad-rudnicki.herokuapp.com/index.html">Gra przeglądarkowa "kółko i krzyżyk"</a></li>
                   </ul>
               </section>
@@ -56,7 +54,7 @@ export default function Home() {
                   <h2>Języki</h2>
                   <ul>
                       <li>Polski - ojczysty</li>
-                      <li>Angielski - B2</li>
+                      <li>Angielski - C1</li>
                       <li>Niemiecki - A1</li>
                   </ul>
               </section>
@@ -64,7 +62,6 @@ export default function Home() {
               <section>
                   <h2>Wykształcenie</h2>
                   <ul>
-                      <li>2015-2018: Gimnazjum nr 23 we Wrocławiu - profil mat</li>
                       <li>2018-2021: <a href="https://lo5.wroc.pl/">
                           Liceum Ogólnokształcące nr 5 we Wrocławiu</a>
                           - profil mat-fiz-inf</li>
