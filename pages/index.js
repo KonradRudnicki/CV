@@ -62,10 +62,8 @@ export default function Home() {
               <section>
                   <h2>Wykształcenie</h2>
                   <ul>
-                      <li>2018-2021: <a href="https://lo5.wroc.pl/">
-                          Liceum Ogólnokształcące nr 5 we Wrocławiu</a>
-                          - profil mat-fiz-inf</li>
-      		<li>2021- : Politechnika Wrocławska - Informatyka Stosowana w języku angielskim</li>
+                      <li>2021-obecnie: Politechnika Wrocławska - Informatyka Stosowana w języku angielskim</li>
+                      <li>2018-2021: Liceum Ogólnokształcące nr 5 we Wrocławiu - profil mat-fiz-inf</li>
                   </ul>
               </section>
 
