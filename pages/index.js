@@ -22,58 +22,72 @@ export default function Home() {
               </div>
               <address>
                   <ul>
-                      <li><img className="address-icon" src="images/tel.png"/><b>Numer telefonu</b>: 662 582 338</li>
-                      <li><img className="address-icon" src="images/mail.png"/><b>Email</b>: konradrudnicki0@gmail.com</li>
-                      <li><img className="address-icon" src="images/uro.png"/><b>Data urodzenia</b>: 24.05.2002</li>
-                      <li><img className="address-icon" src="images/miejsce.png"/><b>Miejsce urodzenia</b>: Wrocław</li>
+                      <li><img className="address-icon" src="images/tel.png"/><b>Phone number</b>: 662 582 338</li>
+                      <li><img className="address-icon" src="images/mail.png"/><b>E-mail</b>: konradrudnicki0@gmail.com</li>
+                      <li><img className="address-icon" src="images/uro.png"/><b>Birth date</b>: 24.05.2002</li>
+                      <li><img className="address-icon" src="images/miejsce.png"/><b>Residence</b>: Wrocław</li>
                   </ul>
               </address>
               </header>
 
           <main>
               <section>
-                  <h2>O mnie</h2>
+                  <h2>About me</h2>
                   <p>
-                      Mam na imię <b>Konrad</b>! Jestem studentem drugiego roku informatyki
-                      stosowanej po angielsku na <a href="https://pwr.edu.pl/">Politechince Wrocławskiej</a>.
-                      Cechuję się kreatywnością, otwartością oraz logicznym myśleniem.
-                      Jestem ambitną osobą, która wytrwale walczy o sukcesy.
+                      A second-year student of Applied Computer Science in English at the Wrocław University of Technology.
+                      I am characterised by creativity, openness and logical thinking. Ambitious person who persistently strives for success.
                   </p>
               </section>
 
               <section>
-                  <h2>Moje linki</h2>
+                  <h2>My links</h2>
                   <ul>
                       <li><a href="https://github.com/KonradRudnicki">GitHub</a></li>
                       <li><a href="https://www.linkedin.com/in/konrad-rudnicki-dev/">LinkedIn</a></li>
-                      <li><a href="https://tic-tac-toe-konrad-rudnicki.herokuapp.com/index.html">Gra przeglądarkowa "kółko i krzyżyk"</a></li>
                   </ul>
               </section>
 
               <section>
-                  <h2>Języki</h2>
+                  <h2>My projects</h2>
                   <ul>
-                      <li>Polski - ojczysty</li>
-                      <li>Angielski - C1</li>
-                      <li>Niemiecki - A1</li>
+                      <li><a href="https://tic-tac-toe-konrad-rudnicki.herokuapp.com/index.html">Tic Tac Toe game</a></li>
+                      <li><a href="https://github.com/KonradRudnicki/sfg-pet-clinic">Sfg Pet Clinic</a></li>
+                      <li><a href="https://github.com/KonradRudnicki/spring5-jokes-app-v2">Chuck Norris jokes application</a></li>
+                      <li><a> More projects posted on my GitHub profile</a></li>
                   </ul>
               </section>
 
               <section>
-                  <h2>Wykształcenie</h2>
+                  <h2>Languages</h2>
                   <ul>
-                      <li>2021-obecnie: Politechnika Wrocławska - Informatyka Stosowana w języku angielskim</li>
-                      <li>2018-2021: Liceum Ogólnokształcące nr 5 we Wrocławiu - profil mat-fiz-inf</li>
+                      <li>Polish - native</li>
+                      <li>English - C1</li>
+                      <li>German - A2</li>
                   </ul>
               </section>
 
               <section>
-              <h2>Zainteresowania</h2>
+                  <h2>Work experience</h2>
                   <ul>
-                      <li>Motoryzacja</li>
-                      <li>Kulturystyka</li>
-                      <li>Piłka nożna</li>
-                      <li>Sztuki walki</li>
+                      <li>2021.10-current: Java Application Consultant in Capgemini</li>
+                  </ul>
+              </section>
+
+              <section>
+                  <h2>Education</h2>
+                  <ul>
+                      <li>2021-current: Wrocław University of Technology - Applied Computer Science</li>
+                      <li>2018-2021: High school no. 5 in Wrocław</li>
+                  </ul>
+              </section>
+
+              <section>
+              <h2>Interests</h2>
+                  <ul>
+                      <li>Boxing</li>
+                      <li>Automotive</li>
+                      <li>Bodybuilding</li>
+                      <li>Music</li>
                   </ul>
               </section>
           </main>
