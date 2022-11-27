@@ -1,12 +1,14 @@
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+
 html,
 body {
-    font-family: Arial;
-    background-image: url(../public/images/background.png);
-    padding: 40px 0
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../images/background.jpg);
+    padding: 40px;
 }
 
 .container > *{
-    background-color: rgb(255 255 255 / 83%);
+    background-color: rgb(255 255 255 / 90%);
 }
 
 h2 {
@@ -15,10 +17,14 @@ h2 {
 
 h1 {
     font-size: 36px;
+    margin-bottom: 0.2em;
+    margin-top: -50px;
 }
 
 span {
     color: grey;
+    display:block;
+    font-size: 20px;
 }
 
 img {
@@ -35,17 +41,24 @@ section,header,main {
 main {
     padding: 0px;
     width: 1080px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    padding-top: 50px;
 }
 
 header ul {
     list-style: none;
+    margin-top: -40px;
 }
 
 header li {
@@ -63,4 +76,26 @@ header li {
 
 .circle {
     border-radius: 50%;
+}
+
+.button {
+    border: 2px solid #007ced;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(0 0 0 / 30%);
+    transition: background-color 0.5s;
+}
+
+.button-menu {
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.button:hover {
+    border: 2px solid #007ced;
+    background-color: #007ced;
+    color: white;
+    fill: white;
 }
